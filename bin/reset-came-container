@@ -1,0 +1,10 @@
+#!/bin/bash
+source ~/.config/came.conf
+
+echo "Deleting came container"
+
+distrobox rm $dcid
+
+echo "Creating came container"
+
+distrobox create -n $dcid -i registry.getcryst.al/crystal/misc/docker:latest
