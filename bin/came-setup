@@ -6,7 +6,12 @@ sleep 1
 
 echo "Setting up crystal linux container"
 
-echo "dcid=ame-container" > ~/.config/came.conf
+tee ~/.config/came.conf <<EOF
+
+dcid=ame-container
+
+durl=registry.getcryst.al/crystal/misc/docker:latest
+EOF
 
 distrobox create -n ame-container -i registry.getcryst.al/crystal/misc/docker:latest
 
