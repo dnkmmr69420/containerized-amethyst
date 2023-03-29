@@ -47,11 +47,13 @@ reset-came-conf
 
 ## Config
 
-There is only one thing in the config since this is a simple program
+There is only two things in the config since this is a simple program
 
 ```bash
 dcid=ame-container
+durl=registry.getcryst.al/crystal/misc/docker:latest
 ```
+dcid is the name of the container while durl is the container image url.
 
 # Scripts
 
