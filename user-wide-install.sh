@@ -9,6 +9,7 @@ rm -f ~/.local/bin/reset-came-container
 rm -f ~/.local/bin/came-exec
 rm -f ~/.local/bin/enter-came
 rm -f ~/.local/bin/stop-came
+rm -f ~/.local/bin/came-init
 
 echo "Downloading and installing came"
 wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/bin/came
@@ -19,6 +20,7 @@ wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized
 wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/bin/came-exec
 wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/bin/enter-came
 wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/bin/stop-came
+wget -P ~/.local/bin https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/bin/came-init
 
 echo "Setting came scripts to executable"
 chmod a+x ~/.local/bin/came
@@ -29,5 +31,6 @@ chmod a+x ~/.local/bin/reset-came-container
 chmod a+x ~/.local/bin/came-exec
 chmod a+x ~/.local/bin/enter-came
 chmod a+x ~/.local/bin/stop-came
+chmod a+x ~/.local/bin/came-init
 
 echo "Finnished installing"
