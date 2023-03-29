@@ -7,4 +7,4 @@ distrobox rm $dcid
 
 echo "Creating came container"
 
-distrobox create -n $dcid -i registry.getcryst.al/crystal/misc/docker:latest
+distrobox create -n $dcid -i $durl
