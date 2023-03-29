@@ -30,7 +30,7 @@ came -S packagename
 It is quite simple to execute something installed with came.
 
 ```bash
-came-exec programname
+came-exec command
 ```
 
 you can also enter the came distrobox container
