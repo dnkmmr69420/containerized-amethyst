@@ -61,6 +61,14 @@ You can type this command to stop the came container
 stop-came
 ```
 
+## Initialize came container
+
+To initialize the came container (start the container), type this command.
+
+```bash
+came-init
+```
+
 ## Config
 
 There is only two things in the config since this is a simple program. It is located at ~/.config/came.conf
