@@ -47,7 +47,7 @@ reset-came-conf
 
 ## Config
 
-There is only two things in the config since this is a simple program
+There is only two things in the config since this is a simple program. It is located at ~/.config/came.conf
 
 ```bash
 dcid=ame-container
