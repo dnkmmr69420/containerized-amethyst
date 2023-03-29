@@ -10,5 +10,6 @@ sudo rm -f /usr/local/bin/reset-came-container
 sudo rm -f /usr/local/bin/came-exec
 sudo rm -f /usr/local/bin/enter-came
 sudo rm -f /usr/local/bin/stop-came
+sudo rm -f /usr/local/bin/came-init
 
 sudo echo "Came is now uninstalled"
