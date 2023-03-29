@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/.config/came.conf
+echo "Initializing distrobox container"
+distrobox enter $dcid -- echo "Container has now been initialized"
