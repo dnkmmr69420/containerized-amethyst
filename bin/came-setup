@@ -7,9 +7,7 @@ sleep 1
 echo "Setting up crystal linux container"
 
 tee ~/.config/came.conf <<EOF
-
 dcid=ame-container
-
 durl=registry.getcryst.al/crystal/misc/docker:latest
 EOF
 
