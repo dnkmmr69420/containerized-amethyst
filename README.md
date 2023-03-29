@@ -89,3 +89,9 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-ameth
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/system-wide-uninstall.sh)
 ```
+
+# Dependencies
+
+required at all times: distrobox along with podman (perferably and has been tested) or docker (which has not been tested)
+
+required for installation: wget, curl
