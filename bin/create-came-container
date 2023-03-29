@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/.config/came.conf
+
+distrobox create -n $dcid -i registry.getcryst.al/crystal/misc/docker:latest
