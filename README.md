@@ -53,6 +53,14 @@ This command resets the config
 reset-came-conf
 ```
 
+## Stop came
+
+You can type this command to stop the came container
+
+```bash
+stop-came
+```
+
 ## Config
 
 There is only two things in the config since this is a simple program. It is located at ~/.config/came.conf
