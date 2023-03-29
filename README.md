@@ -1,5 +1,5 @@
 # containerized-amethyst
-A package manager that runs amethyst in an arch based distrobox container
+A package manager that runs amethyst in an arch based [distrobox](https://github.com/89luca89/distrobox) container
 
 Feel free to include this in your project
 
