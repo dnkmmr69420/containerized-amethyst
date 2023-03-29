@@ -9,5 +9,6 @@ rm -f ~/.local/bin/reset-came-conf
 rm -f ~/.local/bin/reset-came-container
 rm -f ~/.local/bin/came-exec
 rm -f ~/.local/bin/enter-came
+rm -f ~/.local/bin/stop-came
 
 echo "Came is now uninstalled"
