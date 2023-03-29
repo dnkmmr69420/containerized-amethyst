@@ -31,6 +31,12 @@ It is quite simple to execute something installed with came.
 came-exec programname
 ```
 
+you can also enter the came distrobox container
+
+```bash
+enter-came
+```
+
 ## resetting came
 
 This command resets the came container by deleting it and creating a new one.
