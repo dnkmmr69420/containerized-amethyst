@@ -2,6 +2,9 @@
 
 echo "resetting came.conf"
 
-echo "dcid=ame-container" > ~/.config/came.conf
+tee ~/.config/came.conf <<EOF
+dcid=ame-container
+durl=registry.getcryst.al/crystal/misc/docker:latest
+EOF
 
 echo "came.conf has been reset"
