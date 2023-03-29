@@ -1,6 +1,8 @@
 # containerized-amethyst
 A package manager that runs amethyst in an arch based distrobox container
 
+Feel free to include this in your project
+
 ## Setup
 
 Type this to set up came after installing. this sets up both the container and the config.
