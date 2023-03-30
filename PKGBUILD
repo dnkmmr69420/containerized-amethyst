@@ -6,3 +6,5 @@ pkgrel=1
 pkgdesc="A wrapper for using amethyst in distrobox"
 arch=('any')
 url="https://github.com/dnkmmr69420/containerized-amethyst"
+license=('LGPL')
+depends=('bash distrobox')
