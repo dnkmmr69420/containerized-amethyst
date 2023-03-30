@@ -1,6 +1,7 @@
 # Maintainer: dnkmmr or dnkmmr69420
+# Amethyst is not a required dependency, in fact it does not even interact with the one of the host system. This program can run on any linux distro.
 
-pkgname=came-git
+pkgname=containerized-amethyst
 pkgver=1
 pkgrel=1
 pkgdesc="A wrapper for using amethyst in distrobox"
