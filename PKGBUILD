@@ -13,6 +13,8 @@ source=("${pkgname}::git+${url}")
 
 package() {
 	cd "containerized-amethyst"
+	mkdir ./usr
+	mkdir ./usr/bin
 	prefix="${pkgdir}/usr" make install
 }
 
