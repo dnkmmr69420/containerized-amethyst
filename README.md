@@ -33,6 +33,19 @@ It is quite simple to execute something installed with came.
 came-exec command
 ```
 
+You can also use came exec to export an application or binary. Replace application name with the name of the application.
+
+```bash
+came-exec distrobox-export --app application-name
+```
+
+```bash
+came-exec distrobox-export --bin /path/to/bin --export-path ~/.local/bin
+```
+[Source](https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-export.md)
+
+## Enter came
+
 you can also enter the came distrobox container
 
 ```bash
