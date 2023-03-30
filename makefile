@@ -4,4 +4,6 @@ install:
   @echo installing
   @rm -f $(prefix)/bin/came
   @rm -f $(prefix)/bin/came-exec
-  @rm -f $(prefix)/
+  @rm -f $(prefix)/bin/came-init
+  @rm -f $(prefix)/bin/came-setup
+  @rm -f
