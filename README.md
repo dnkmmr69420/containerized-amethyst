@@ -129,4 +129,4 @@ required for installation: wget, curl
 
 # License
 
-Licensed under [GPL](https://www.gnu.org/licenses/gpl-3.0.html)
+Licensed under [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html)
