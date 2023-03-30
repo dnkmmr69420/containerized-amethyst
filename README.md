@@ -121,9 +121,9 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-ameth
 bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/system-wide-uninstall.sh)
 ```
 
-## Installing with make
+# Installing with make
 
-### First clone the repo
+## First clone the repo
 
 ```bash
 git clone https://github.com/dnkmmr69420/containerized-amethyst.git
@@ -135,7 +135,7 @@ git clone https://github.com/dnkmmr69420/containerized-amethyst.git
 cd containerized-amethyst
 ```
 
-### For single user installation type this
+## For single user installation type this
 
 Make sure the bin directory exists
 
@@ -148,7 +148,7 @@ Now install
 prefix=~/.local make install
 ```
 
-### Multiuser installation
+## Multiuser installation
 
 Type this
 
@@ -157,7 +157,7 @@ sudo prefix=/usr/local make install
 ```
 
 
-### Uninstall
+## Uninstall
 
 Type this for single user installs
 
