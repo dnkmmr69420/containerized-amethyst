@@ -12,9 +12,8 @@ depends=(bash distrobox)
 source=("${pkgname}::git+${url}")
 
 prepare() {
-	cd "containerized-amethyst"
-	mkdir ./usr
-	mkdir ./usr/bin
+	mkdir -p ${pkgdir}/usr
+	mkdir -p ${pkgdir}/usr/bin
 }
 
 package() {
