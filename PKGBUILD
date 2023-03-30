@@ -12,6 +12,7 @@ depends=(bash distrobox)
 source=("${pkgname}::git+${url}")
 
 prepare() {
+	mkdir -p ${pkgdir}
 	mkdir -p ${pkgdir}/usr
 	mkdir -p ${pkgdir}/usr/bin
 }
