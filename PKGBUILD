@@ -11,10 +11,13 @@ license=('LGPL')
 depends=(bash distrobox)
 source=("${pkgname}::git+${url}")
 
-package() {
+prepare() {
 	cd "containerized-amethyst"
 	mkdir ./usr
 	mkdir ./usr/bin
+}
+
+package() {
 	prefix="${pkgdir}/usr" make install
 }
 
