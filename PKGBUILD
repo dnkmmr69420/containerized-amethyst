@@ -15,3 +15,5 @@ package() {
 	cd "$pkgname-$pkgver"
 	prefix="${pkgdir}/usr" make install
 }
+
+sha256sums=('SKIP')
