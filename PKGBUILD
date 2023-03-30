@@ -12,7 +12,7 @@ depends=(bash distrobox)
 source=("${pkgname}::git+${url}")
 
 package() {
-	cd "$pkgname-$pkgver"
+	cd "containerized-amethyst"
 	prefix="${pkgdir}/usr" make install
 }
 
