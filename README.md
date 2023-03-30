@@ -126,3 +126,7 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-ameth
 required at all times: distrobox along with podman (perferably and has been tested) or docker (which has not been tested)
 
 required for installation: wget, curl
+
+# License
+
+Licensed under [GPL](https://www.gnu.org/licenses/gpl-3.0.html)
