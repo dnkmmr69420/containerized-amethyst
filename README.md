@@ -121,6 +121,57 @@ bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-ameth
 bash <(curl -s https://raw.githubusercontent.com/dnkmmr69420/containerized-amethyst/main/system-wide-uninstall.sh)
 ```
 
+## Installing with make
+
+### First clone the repo
+
+```bash
+git clone https://github.com/dnkmmr69420/containerized-amethyst.git
+```
+
+### CD too containerized-amethyst
+
+```bash
+cd containerized-amethyst
+```
+
+### For single user installation type this
+
+Make sure the bin directory exists
+
+```bash
+mkdir ~/.local/bin
+```
+Now install
+
+```bash
+prefix=~/.local make install
+```
+
+### Multiuser installation
+
+Type this
+
+```bash
+sudo prefix=/usr/local make install
+```
+
+
+### Uninstall
+
+Type this for single user installs
+
+```bash
+prefix=~/.local make uninstall
+```
+
+For multiuser installs type this
+
+```bash
+sudo prefix=/usr/local make uninstall
+```
+
+
 # Dependencies
 
 required at all times: distrobox along with podman (perferably and has been tested) or docker (which has not been tested)
