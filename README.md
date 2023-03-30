@@ -1,5 +1,5 @@
 # containerized-amethyst
-A package manager that runs amethyst in an arch based [distrobox](https://github.com/89luca89/distrobox) container
+A package manager that runs amethyst in an arch based [distrobox](https://github.com/89luca89/distrobox) container called [Crystal linux docker image](https://git.getcryst.al/crystal/misc/docker)
 
 Feel free to include this in your project
 
