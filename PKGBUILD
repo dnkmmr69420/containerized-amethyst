@@ -18,6 +18,7 @@ prepare() {
 }
 
 package() {
+	cd "containerized-amethyst"
 	prefix="${pkgdir}/usr" make install
 }
 
