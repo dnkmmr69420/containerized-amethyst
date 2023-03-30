@@ -12,13 +12,14 @@ depends=(bash distrobox)
 source=("${pkgname}::git+${url}")
 
 prepare() {
+	cd ${srcdir}/containerized-amethyst
 	mkdir -p ${pkgdir}
 	mkdir -p ${pkgdir}/usr
 	mkdir -p ${pkgdir}/usr/bin
 }
 
 package() {
-	cd "containerized-amethyst"
+	cd ${srcdir}/containerized-amethyst
 	prefix="${pkgdir}/usr" make install
 }
 
