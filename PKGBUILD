@@ -1,26 +1,27 @@
-# Maintainer: dnkmmr or dnkmmr69420
-# Amethyst is not a required dependency, in fact it does not even interact with the one of the host system. This program can run on any linux distro.
+# Maintainer: dnkmmr
 
-pkgname=containerized-amethyst
-pkgver=1
+pkgname=containerized-amethyst-git
+_pkgname="${pkgname%-git}"
+pkgver=r71.e14a3b2
 pkgrel=1
 pkgdesc="A wrapper for using amethyst in distrobox"
 arch=('any')
 url="https://github.com/dnkmmr69420/containerized-amethyst"
 license=('LGPL')
-depends=(bash distrobox)
-source=("${pkgname}::git+${url}")
+provides=("${_pkgname}")
+conflicts=("${_pkgname}")
+depends=('distrobox')
+makedepends=('git')
+source=("git+${url}.git")
+sha256sums=('SKIP')
 
-prepare() {
-	cd ${srcdir}/containerized-amethyst
-	mkdir -p ${pkgdir}
-	mkdir -p ${pkgdir}/usr
-	mkdir -p ${pkgdir}/usr/bin
+pkgver() {
+	cd "${_pkgname}"
+	printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 package() {
-	cd ${srcdir}/containerized-amethyst
-	prefix="${pkgdir}/usr" make install
+	cd "${_pkgname}"
+	make PREFIX=/usr DESTDIR="${pkgdir}" install
 }
 
-sha256sums=('SKIP')
