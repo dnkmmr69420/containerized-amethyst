@@ -7,6 +7,6 @@ dcid=ame-container
 durl=registry.getcryst.al/crystal/misc/docker:latest
 EOF
 
-distrobox create -n ame-container -i registry.getcryst.al/crystal/misc/docker:latest
+create-came-container
 
-echo "Finished creating crystal linux container"
+came-init
