@@ -171,6 +171,26 @@ For multiuser installs type this
 sudo PREFIX=/usr/local make uninstall
 ```
 
+# Installing with makepkg (arch linux and arch based distros only)
+
+First clone the repo
+
+```bash
+git clone https://github.com/dnkmmr69420/containerized-amethyst.git
+```
+Next cd into the repo
+
+```bash
+cd containerized-amethyst
+```
+
+now use the makepkg command
+
+```bash
+makepkg -si
+```
+It should now be installed as a pacman package
+
 
 # Dependencies
 
