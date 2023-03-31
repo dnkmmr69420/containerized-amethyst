@@ -10,7 +10,7 @@ if ! command -v distrobox >/dev/null 2>&1; then
     curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
 fi
 
-TEMPDIR=$(mktemp)
+TEMPDIR=$(mktemp -d)
 
 cd $TEMPDIR
 
