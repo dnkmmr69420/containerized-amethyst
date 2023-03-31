@@ -17,6 +17,6 @@ cd $TEMPDIR
 git clone --quiet https://github.com/dnkmmr69420/containerized-amethyst
 cd containerized-amethyst
 sudo chmod a+x bin/*
-cp bin/* ~/.local/bin/.
+install -Dm755 bin/* ~/.local/bin/.
 
-echo "Finnished installing"
+echo "Finished installing"
