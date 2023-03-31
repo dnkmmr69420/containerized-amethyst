@@ -145,7 +145,7 @@ mkdir ~/.local/bin
 Now install
 
 ```bash
-prefix=~/.local make install
+PREFIX=~/.local make install
 ```
 
 ## Multiuser installation
@@ -153,7 +153,7 @@ prefix=~/.local make install
 Type this
 
 ```bash
-sudo prefix=/usr/local make install
+sudo PREFIX=/usr/local make install
 ```
 
 
@@ -162,13 +162,13 @@ sudo prefix=/usr/local make install
 Type this for single user installs
 
 ```bash
-prefix=~/.local make uninstall
+PREFIX=~/.local make uninstall
 ```
 
 For multiuser installs type this
 
 ```bash
-sudo prefix=/usr/local make uninstall
+sudo PREFIX=/usr/local make uninstall
 ```
 
 
