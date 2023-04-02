@@ -1,4 +1,8 @@
 #!/bin/bash
+if [[ ! -e ~/.config/came.conf ]]; then
+    echo "came config file not found"
+    echo "run came-setup first"
+    exit 1
+fi
 source ~/.config/came.conf
-
 distrobox create -n $dcid -i $durl

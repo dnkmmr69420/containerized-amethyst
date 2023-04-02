@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "Starting came-setup"
-
-sleep 1
-
 echo "Setting up crystal linux container"
 
 tee ~/.config/came.conf <<EOF
@@ -11,6 +7,6 @@ dcid=ame-container
 durl=registry.getcryst.al/crystal/misc/docker:latest
 EOF
 
-distrobox create -n ame-container -i registry.getcryst.al/crystal/misc/docker:latest
+create-came-container
 
-echo "Finnished creating crystal linux container"
+came-init
