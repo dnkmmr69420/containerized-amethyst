@@ -1,5 +1,5 @@
 {
-  description = "A flake for building Hello World";
+  description = "A flake for installing containerized amethyst";
 
   inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-20.03;
 
